@@ -31,7 +31,7 @@ function createStore(reducer) {
 }
 
 let store = createStore(reducer);
-store.dispatch({ type: "@@INIT")
+store.dispatch({ type: "@@INIT"})
 dispatch({ type: "@@INIT" });
 let button = document.getElementById("button");
 
